@@ -32,6 +32,26 @@ To find out the correlation between the categorical variable and numeric variabl
 
 
 ## 4. Business Intelligence Questions
+### Q. Does the product with a high discount rate have a lot of reviews?
+![image](https://github.com/EunsuSeo01/PeopleSpace-HW1/assets/87434861/7228e124-1066-4f6f-a535-cf8ba1e71fb9)  
+- I measured the strength and direction of the linear relationship between the two variables using the Pearson correlation coefficient.
+The value was ```0.10971606884428392```, which showed little linear relationship between the two variables because a value close to zero came out.
 
+### Q. Does the product with Etsy's Pick badge have a large discount rate?
+- I calculated the Point-Bisial Correlation Coefficient to find out the correlation between the badge and the discount rate.
+- This value ranges from -1 to 1, and the closer to zero, the weaker or less the correlation.
+- The P-value in the picture indicates statistical significance. If this value is less than 0.05, it is considered statistically significant.
 
-EDA Guide: [PS-HW1-EDA-Guide-EunSuSeo.pdf](https://github.com/EunsuSeo01/PeopleSpace-HW1/files/14126865/PS-HW1-EDA-Guide-EunSuSeo.pdf)
+<img width="779" alt="스크린샷 2024-02-01 오후 12 25 33" src="https://github.com/EunsuSeo01/PeopleSpace-HW1/assets/87434861/cee40ebb-cbc5-4053-a46d-332a0d916b28">  
+
+- The Point-Bisserial Correlation Coefficient value of the two variables is quite large at -0.5944. This indicates a strong negative correlation. The P-value is very small at 0.0, indicating that it is a statistically very significant relationship. So, it was found that as the badge increased, the Discount Rate tended to decrease.
+- In other words, if it is a product with a badge, there is a possibility that the discount rate will be low.
+
+### Q. Does the product with Etsy's Pick badge have a lot of reviews?
+<img width="796" alt="스크린샷 2024-02-01 오후 12 25 50" src="https://github.com/EunsuSeo01/PeopleSpace-HW1/assets/87434861/4e56584c-fa78-4a23-a677-8c0bee033368">
+
+- The Point-Biserial Correlation Coefficient is significantly smaller, at -0.034238652504330114. This indicates a very weak negative correlation. The P-value is statistically significant at 0.006155887265821593, but the magnitude of the correlation is very small.
+- Since there is little correlation between these two variables, it is judged that they do not affect each other.
+
+----
+- EDA Guide: [PS-HW1-EDA-Guide-EunSuSeo.pdf](https://github.com/EunsuSeo01/PeopleSpace-HW1/files/14126865/PS-HW1-EDA-Guide-EunSuSeo.pdf)
